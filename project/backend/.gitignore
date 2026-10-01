@@ -1,0 +1,8 @@
+# Nasconde le chiavi segrete e le variabili d'ambiente
+.env
+
+# Nasconde le dipendenze di Node (pesanti e inutili da caricare su GitHub)
+node_modules/
+
+# Nasconde il database locale SQLite (così ogni utente avrà il suo)
+database.sqlite
